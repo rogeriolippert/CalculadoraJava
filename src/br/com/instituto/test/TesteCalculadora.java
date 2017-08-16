@@ -36,4 +36,41 @@ public class TesteCalculadora {
 		calculadora.Somar(3);
 		assertEquals(calculadora.getResultado(), 13, 0); 
 	}	
+	
+	@Test
+	public void criaCalculadoraSubtrai() {
+		calculadora = new Calculadora(10);
+		calculadora.Subtrair(8);
+		assertEquals(calculadora.getResultado(), 2, 0); 
+	
+	}
+	
+	@Test
+	public void criaCalculadoraDivide() {
+		calculadora = new Calculadora(8);
+		calculadora.Divide(8);
+		assertEquals(calculadora.getResultado(), 1., 0); 
+	
+	}
+	@Test
+	public void criaCalculadoraMultiplica() {
+		calculadora = new Calculadora(10);
+		calculadora.Multiplica(8);
+		assertEquals(calculadora.getResultado(), 80, 0); 
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

@@ -17,4 +17,16 @@ public class Calculadora {
 	public double Somar(double valor) {
 		return this.resultado += valor;
 	}
+	
+	public double Subtrair(double valor) {
+		return this.resultado -= valor;
+	}
+	
+	public double Divide(double valor) {
+		return this.resultado /= valor;
+	}
+	
+	public double Multiplica(double valor) {
+		return this.resultado *= valor;
+	}
 }
